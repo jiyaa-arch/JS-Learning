@@ -14,3 +14,7 @@ console.log(booleanIsLoggedIn)
 //1=true,0=false
 //""=false
 //"juunn"=>true
+
+console.log("1"+2); //it will be considered as string
+
+console.log(+true);
