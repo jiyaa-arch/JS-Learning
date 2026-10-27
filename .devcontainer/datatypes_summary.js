@@ -29,3 +29,27 @@ const myfunction=function(){
 
 //to check
 console.log(typeof myfunction);
+
+//------------------------------------------------------------------------------------------------------------------------------
+//memory 
+//stack(primitive),heap(non-primitive)
+
+let mynovel="rock paper scissors"
+
+let mynovel2=mynovel
+mynovel="hooked "
+console.log(mynovel) //here it is stored acc to stack so the copy of value is made in stack 
+
+let novel1={
+    name:"twisted love",
+    author:"ana haung"
+}
+
+let novel2=novel1
+
+novel2.name="twisted games"
+console.log(novel1)
+console.log(novel2) //heap k andr refrence same hota h ,so dono change
+
+
+//so stack me copy milti h ,original value same rehti h ,no change but heap me jo change hota h original value k andr hota h.
